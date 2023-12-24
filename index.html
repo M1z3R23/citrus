@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CITRUS - интернет магазин цифровой техники</title>  <!-- Название заголовка -->
+   <link rel="icon" type="images/x-icon" href="file:///E:/Sh1ne/img/icon.png"> <!--Иконка(сайта)-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+   integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+   crossorigin="anonymous" 
+   referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/main.css">
+   <!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+   <header> 
+      <div class="container"> <!-- Верхняя часть шапки (маршрут) -->
+         <div class="row">
+           <div class="col">
+            <ul> 
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cursor" viewBox="0 0 16 16"> <!--Иконка-->
+                  <path d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z"/>
+                </svg>
+            <li><a href="#" class="change-color-link" title="">Тюмень</a></li>
+            </ul>
+           </div>
+           <div class="col-6">
+            <ul class="justify-content-center" style="display: flex;">
+               <li><a href="sale.html" class="change-color-link" style="color:orangered;" title="">Акции •</a></li>
+               <li><a href="index.html" class="change-color-link" title="">Главная</a></li>
+               <li><a href="index.html" class="change-color-link" title="">Каталог</a></li>
+               <li><a href="company.html" class="change-color-link" title="">О Компании</a></li>
+            </ul>
+           </div>
+           <div class="col">
+            <ul class="justify-content-end" style="display: flex;"> 
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16"> <!--Иконка-->
+                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+               <li class="change-color-link2" title="">8-800-77-07-777</li>
+            </ul>
+           </div>
+         </div>
+         <div class="row"> <!-- Баннер с названием сайта -->
+           <div class="col">
+            <a href="index.html"><img class="img"src="img/cit.png"></a>
+           </div>
+           
+           <div class="col-5"> <!--Поисковая строчка-->
+            <form class="d-flex" role="search">
+               <input class="form-control me-1" type="search" placeholder="Поиск" aria-label="Поиск">
+               <button class="btn btn-dark" type="submit">Поиск</button>
+             </form>
+           </div>
+
+           <div class="col">
+            <ul class="justify-content-end" style="display: flex;">
+               <li><a href="#" class="change-color-link4" title="">Корзина</a></li>
+               <li><a href="#" class="change-color-link5" title="">Избранное</a></li>
+               <li><a href="./register.html" class="change-color-link3" title="">Войти</a></li> 
+               <!-- <div class="knopka1"><p class="tx1"> <a href="#okno"> Войти </a></p> -->
+            </ul>
+           </div>
+         </div>
+       </div>
+</header>
+
+<!-- Вход в аккаунт и регистрация 
+<div id="okno">
+  <p class="txxx1">Вход<br></P>
+<label  ><input class="lb1123" placeholder="e-mail" type=""></input></label>
+<label  ><input class="lb11231" placeholder="password" type=""></input></label>
+<button class="batton4">Войти</button>
+<input class="chekedasd"  type="checkbox" id="horns" name="horns">
+<label class="chekedasd" for="horns"><p class="chekedasd1" >Запомнить</p></label>
+  <a href="#" class="close">X</a>
+<p class="zapomni">Нет аккаунта? <a href="index5.html" class="pidarassyka">Зарегестрироваться</a></p>
+</div> -->
+
+
+<div class="container">
+   <div class="row">
+     <div class="col-sm-4">
+         <div class="list"> <!--Каталог-->
+            <ul>
+               <li><span><a href="#" class="" title=""></a>ПК, ноутбуки</span></li><br>
+               <li><span><a href="#" class="" title=""></a>Смартфоны</span></li><br>
+               <li><span><a href="#" class="" title=""></a>Мониторы, телевизоры</span></li><br>
+               <li><span><a href="#" class="" title=""></a>Принтеры, сканеры</span></li><br>
+               <li><span><a href="#" class="" title=""></a>Планшеты, электронные книги</span></li><br>
+               <li><span><a href="#" class="" title=""></a>Фототехника</span></li><br>
+            </ul>
+         </div>
+      </div>
+
+      <div class="col-sm-8">
+         <div class="col">  <!-- Акции -->
+           <div class="">
+               <a href="#"><img class="img"src="img/Sale.png" style="padding: 4px;"></a>
+               <a href="#"><img class="img"src="img/Sale.png"style="padding: 4px;"></a>
+               <a href="#"><img class="img"src="img/Sale.png"style="padding: 4px;"></a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <br>
+
+
+   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"> <!--Карусель с новостями-->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/sale2.png" class="" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/sale3.png" class="" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/sale4.png" class="" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Предыдущий</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Следующий</span>
+       </button>
+     </div>
+</div>
+<br>
+<br>
+
+<main>
+
+<p class="katal"> Каталог товаров</p>
+
+   <div class="container">
+      <div class="row" id="catalog">
+       <div>
+         <button class="btn btn-dark" type="submit">Подробнее</button>
+    </div>
+    <br>
+    <br>
+
+    <script>document.addEventListener("DOMContentLoaded",async ()=>{
+      let url="http://127.0.0.1:5000/katalog"
+      const request = await fetch(url, {
+            headers: {
+               "Content-Type": "application/json",
+            },  
+            method: "GET",
+      });
+      const responce = await request.json();
+      console.log(responce)
+      let katalog=document.getElementById("catalog")
+      
+      for(let i=0;i<responce.length;i++){
+     katalog.insertAdjacentHTML("afterbegin",
+
+`<div class="col-sm">
+  <div class="product-wrap">
+     <div class="product-image">
+       <a href="">
+         <img style="width: 150px; height: 150px" src="./img/${responce[i].img}">
+         <div class="shadow"></div>
+       </a>
+       
+       <div class="actions">
+         <div class="actions-btn">
+           <a class="add-to-cart" href="" title="Добавить в корзину"></a>
+           <a class="add-to-wishlist" href="" title="Добавить в мои желания"></a>
+         </div>
+       </div> 
+     </div>
+     <div class="product-list">
+       <h3>${responce[i].title}</h3>
+       <div class="price">$ ${responce[i].price}</div>
+     </div>
+   </div>
+ </div>`
+     )
+}
+    });
+    </script>
+</main>
+<br>
+<br>
+<br>
+
+<footer> <!--Нижняя часть сайта (подвал)-->
+<div class="footer">
+<div class="row">
+   <ul> <!--Иконки ссылками-->
+      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+   </ul>
+</div>
+
+<div class="row">
+   <ul>
+      <li><a href="company.html">О Компании</a></li>
+      <li><a href="Pay.html">Способы оплаты</a></li>
+      <li><a href="price.html">Обмен, возврат, гарантия</a></li>
+   </ul>
+</div>
+
+<div class="row-center">
+   © 2003–2023 Компания CITRUS 
+</div>
+</div>
+</footer>
+ 
+
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+   <script src="boostrap/js/bootstrap.bundle.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>
